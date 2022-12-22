@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background: lightyellow;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(56, 86, 162);
+    z-index: 9;
+}
+
+.nav{
+    width: 95px; 
+    height: 95px;
+    padding:10px -10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Brand-Logo{
+         width: 150px;
+         height: 40px;
+         margin: 15px 10vw;
+} 
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+form {
+    
+    display:flex;
+    flex-direction:row;
+}
+    
+
+.search{
+    width: 500px; 
+    margin: 20px -8vw;
+}
+
+.searchbox{
+    flex-grow:2;
+    width: 500px;
+    height: 40px;
+    border-style:solid;
+    border-width: 2px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    margin: -29px 1vw;
+}
+
+
+.searchbox::-webkit-input-placeholder{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    top: 10px; 
+    left: 14px;
+    width: 200px;
+    text-align: left;   
+}
+
+input:focus{
+    outline: none;
+}
+
+input.searchbox{
+    padding-left: 14px;  
+    font-size: 16px; 
+}
+
+.search-btn{
+    border: none;
+    width: 15%;
+    height: 40px;
+    padding: 1px 1px;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: -29px;
+}
+
+.nav-items a{
+     margin-left: 30px;
+}
+
+.icons1{
+   margin-left: 42vw;
+   margin-top: -19px;
+}
+.icons2{
+    margin-left: 1vw;
+    margin-top: -19px;
+ }
+
+.nav-items a img{
+ width: 30px; 
+}
+
+.links-container{
+    width: 100%;
+    display:flex;
+    padding:8px 10vw;
+    justify-content: center;
+    list-style:none;
+}
+
+.link{
+    text-transform: capitalize;
+    padding: 0 12px;
+    margin: 0 7px;
+    text-decoration: none;
+    color: rgba(47, 46, 47, 0.721);
+    opacity: 2;
+    transition: .5s;        
+}
+
+.link:hover{
+    color:black;
+    opacity: 4;
+}
+
+.links-container{
+    background-color: white;
+    margin: -25px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+
+.herosection{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelimage{
+    width: 300px;
+    height: 200px;
+    margin: 20px 10vw;
+}
